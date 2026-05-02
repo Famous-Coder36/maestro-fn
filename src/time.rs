@@ -76,7 +76,7 @@ impl TimeInterval {
 
     loop {
         interval.tick().await;
-        f(); // OK
+        f();
     }
 }
 }
