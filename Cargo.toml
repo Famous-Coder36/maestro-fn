@@ -1,0 +1,30 @@
+[package]
+name = "maestro-fn"
+version = "0.0.1"
+edition = "2024"
+authors = ["Otabek"]
+description = "A lightweight Rust utility toolkit for cleaner, faster, and more expressive development."
+license = "MIT"
+repository = "https://github.com/Famous-Coder36/maestro-fn"
+readme = "README.md"
+
+keywords = ["rust", "utilities", "async", "macro", "toolkit"]
+categories = ["development-tools", "asynchronous"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = [
+    "cookies",
+    "gzip",
+    "brotli",
+    "deflate",
+    "stream"
+] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+futures-util = "0.3"
+bytes = "1"
+rand = "0.10.1"
+uuid = { version = "1", features = ["v4"] }
+futures = "0.3"
+url = "2"
