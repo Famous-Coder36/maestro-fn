@@ -6,13 +6,13 @@
 
 ## 🚀 What is this?
 
-maestro_fn is a developer-focused Rust toolkit that simplifies common programming patterns into **clean, fluent, and readable code**.
+maestro-fn is a developer-focused Rust toolkit that simplifies common programming patterns into **clean, fluent, and readable code**.
 
 It helps you write less boilerplate and focus more on logic.
 
 ────────────────────────────────────────────
 
-## 💡 Why maestro_fn?
+## 💡 Why maestro-fn?
 
 🧠 Simple to use  
 ⚡ Fast and lightweight  
@@ -39,4 +39,4 @@ It helps you write less boilerplate and focus more on logic.
 Add to your `Cargo.toml`:
 
 ```toml
-maestro_fn = "0.0.1"
+maestro-fn = "0.0.1"
